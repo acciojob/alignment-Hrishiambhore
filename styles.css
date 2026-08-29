@@ -12,6 +12,14 @@ table.middle th, table.middle td {
   text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
 thead {
   background-color: #f2f2f2;
 }
