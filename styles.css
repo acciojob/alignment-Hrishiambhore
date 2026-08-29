@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+/* Center heading */
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+table.middle {
+  margin: 0 auto; /* centers the table */
+  border-collapse: collapse;
+  width: 60%;
+  font-family: Arial, sans-serif;
+}
+
+table.middle th, table.middle td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+table.middle thead {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
