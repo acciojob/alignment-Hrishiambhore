@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -6,33 +7,32 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Center-aligned Heading -->
   <h1 style="text-align:center;">HTML Assignment #3</h1>
 
   <!-- Table 1 -->
   <table class="middle" id="table1">
     <thead>
       <tr>
-        <th id="t1c1">Column 1</th>
-        <th id="t1c2">Column 2</th>
-        <th id="t1c3">Column 3</th>
+        <th id="t11">Column 1</th>
+        <th id="t12">Column 2</th>
+        <th id="t13">Column 3</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td id="t1r1c1">Row 1, Col 1</td>
-        <td id="t1r1c2">Row 1, Col 2</td>
-        <td id="t1r1c3">Row 1, Col 3</td>
+        <td id="t21" class="center">Row 1, Col 1</td>
+        <td id="t22" class="right">Row 1, Col 2</td>
+        <td id="t23">Row 1, Col 3</td>
       </tr>
       <tr>
-        <td id="t1r2c1">Row 2, Col 1</td>
-        <td id="t1r2c2">Row 2, Col 2</td>
-        <td id="t1r2c3">Row 2, Col 3</td>
+        <td id="t31" class="center">Row 2, Col 1</td>
+        <td id="t32" class="right">Row 2, Col 2</td>
+        <td id="t33">Row 2, Col 3</td>
       </tr>
       <tr>
-        <td id="t1r3c1">Row 3, Col 1</td>
-        <td id="t1r3c2">Row 3, Col 2</td>
-        <td id="t1r3c3">Row 3, Col 3</td>
+        <td id="t41" class="center">Row 3, Col 1</td>
+        <td id="t42" class="right">Row 3, Col 2</td>
+        <td id="t43">Row 3, Col 3</td>
       </tr>
     </tbody>
   </table>
@@ -41,18 +41,25 @@
   <table class="middle" id="table2">
     <thead>
       <tr>
-        <th>Header A</th>
-        <th>Header B</th>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Data A1</td>
-        <td>Data B1</td>
+        <td colspan="2">Merged Cell</td>
+        <td>Data</td>
       </tr>
       <tr>
-        <td>Data A2</td>
-        <td>Data B2</td>
+        <td>Data A</td>
+        <td>Data B</td>
+        <td>Data C</td>
+      </tr>
+      <tr>
+        <td>Data D</td>
+        <td>Data E</td>
+        <td>Data F</td>
       </tr>
     </tbody>
   </table>
@@ -66,11 +73,15 @@
       </tr>
     </thead>
     <tbody>
+      <tr style="background-color:green;">
+        <td>Image</td>
+        <td><img src="https://picsum.photos/100" alt="Sample Image"></td>
+      </tr>
       <tr>
         <td>Item 1</td>
         <td>First description</td>
       </tr>
-      <tr>
+      <tr style="background-color:blue;">
         <td>Item 2</td>
         <td>Second description</td>
       </tr>

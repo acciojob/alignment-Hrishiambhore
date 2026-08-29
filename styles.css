@@ -2,12 +2,13 @@
 table.middle {
   margin: 20px auto;
   border-collapse: collapse;
+  border-spacing: 5px; /* spacing between cells */
   width: 70%;
 }
 
 table.middle th, table.middle td {
   border: 1px solid black;
-  padding: 10px;
+  padding: 1px; /* corrected padding */
   text-align: center;
 }
 
