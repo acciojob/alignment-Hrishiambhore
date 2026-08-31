@@ -1,25 +1,43 @@
 /*  your css code here. If applicable */
-table.middle {
-  margin: 20px auto;
-  border-collapse: collapse;
-  border-spacing: 5px; /* spacing between cells */
-  width: 70%;
-}
-
-table.middle th, table.middle td {
+/* General table styling */
+table, td {
   border: 1px solid black;
-  padding: 1px; /* corrected padding */
+  border-collapse: collapse;
+  padding: 8px;
   text-align: center;
 }
 
-.center {
+/* Center heading */
+.heading {
   text-align: center;
 }
 
+/* Class middle for all tables */
+.middle {
+  margin: 20px auto;
+}
+
+/* Center row */
+.center td {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Right column */
 .right {
   text-align: right;
+  font-style: italic;
 }
 
-thead {
-  background-color: #f2f2f2;
+/* Table 3 row colors */
+.green-row {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.blue-row {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
 }
